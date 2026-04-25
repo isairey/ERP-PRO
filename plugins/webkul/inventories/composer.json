@@ -1,0 +1,30 @@
+{
+    "name": "webkul/inventories",
+    "description": "Inventory and warehouse management",
+    "authors": [
+        {
+            "name": "Jitendra Singh",
+            "email": "jitendra@webkul.in"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\Inventory\\InventoryServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Webkul\\Inventory\\": "src/",
+            "Webkul\\Inventory\\Database\\Factories\\": "database/factories/",
+            "Webkul\\Inventory\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Webkul\\Inventory\\Tests\\": "tests/"
+        }
+    }
+}

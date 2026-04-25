@@ -1,0 +1,30 @@
+{
+    "name": "webkul/time-off",
+    "description": "Leave management and tracking",
+    "authors": [
+        {
+            "name": "Aureus ERP",
+            "email": "support@aureuserp.in"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\TimeOff\\TimeOffServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Webkul\\TimeOff\\": "src/",
+            "Webkul\\TimeOff\\Database\\Factories\\": "database/factories/",
+            "Webkul\\TimeOff\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Webkul\\TimeOff\\Tests\\": "tests/"
+        }
+    }
+}

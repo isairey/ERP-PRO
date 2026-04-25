@@ -1,0 +1,30 @@
+{
+    "name": "webkul/timesheets",
+    "description": "Employee work hour tracking",
+    "authors": [
+        {
+            "name": "Aureus ERP",
+            "email": "support@aureuserp.in"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\Timesheet\\TimesheetServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Webkul\\Timesheet\\": "src/",
+            "Webkul\\Timesheet\\Database\\Factories\\": "database/factories/",
+            "Webkul\\Timesheet\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Webkul\\Timesheet\\Tests\\": "tests/"
+        }
+    }
+}
