@@ -65,7 +65,7 @@ Este código aplica en:
 
 Si experimentas o detectas comportamientos inapropiados, puedes reportarlo de forma confidencial:
 
-📧 **support@krayincrm.com**
+📧 **Crear un Issue**
 
 Todas las denuncias serán tratadas con seriedad, confidencialidad y en el menor tiempo posible.
 
